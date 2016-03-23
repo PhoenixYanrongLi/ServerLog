@@ -1,0 +1,230 @@
+Cloud-init v. 0.7.5 running 'init-local' at Wed, 18 Nov 2015 00:31:22 +0000. Up 2.32 seconds.
+Cloud-init v. 0.7.5 running 'init' at Wed, 18 Nov 2015 00:31:26 +0000. Up 5.59 seconds.
+ci-info: ++++++++++++++++++++++++++++Net device info++++++++++++++++++++++++++++
+ci-info: +--------+-------+----------------+---------------+-------------------+
+ci-info: | Device |   Up  |    Address     |      Mask     |     Hw-Address    |
+ci-info: +--------+-------+----------------+---------------+-------------------+
+ci-info: |   lo   |  True |   127.0.0.1    |   255.0.0.0   |         .         |
+ci-info: |  eth1  | False |       .        |       .       | 04:01:87:0a:bf:02 |
+ci-info: |  eth0  |  True | 198.199.116.85 | 255.255.255.0 | 04:01:87:0a:bf:01 |
+ci-info: +--------+-------+----------------+---------------+-------------------+
+ci-info: +++++++++++++++++++++++++++++++++Route info++++++++++++++++++++++++++++++++++
+ci-info: +-------+---------------+---------------+---------------+-----------+-------+
+ci-info: | Route |  Destination  |    Gateway    |    Genmask    | Interface | Flags |
+ci-info: +-------+---------------+---------------+---------------+-----------+-------+
+ci-info: |   0   |    0.0.0.0    | 198.199.116.1 |    0.0.0.0    |    eth0   |   UG  |
+ci-info: |   1   |   10.12.0.0   |    0.0.0.0    |  255.255.0.0  |    eth0   |   U   |
+ci-info: |   2   | 198.199.116.0 |    0.0.0.0    | 255.255.255.0 |    eth0   |   U   |
+ci-info: +-------+---------------+---------------+---------------+-----------+-------+
+2015-11-17 19:31:26,587 - stages.py[WARNING]: Could not find module named cc_ubuntu_init_switch
+Generating public/private rsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_rsa_key.
+Your public key has been saved in /etc/ssh/ssh_host_rsa_key.pub.
+The key fingerprint is:
+58:2d:19:32:cc:da:4e:a0:6d:e0:c5:ac:c0:ab:8e:29 root@capstonealzheimer
+The key's randomart image is:
++--[ RSA 2048]----+
+|.  o oo .        |
+|... = oo +       |
+| o.* +  + .      |
+| .+ + oo .       |
+|.  . o. S        |
+|.     .          |
+|o.               |
+|E.               |
+|.                |
++-----------------+
+Generating public/private dsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_dsa_key.
+Your public key has been saved in /etc/ssh/ssh_host_dsa_key.pub.
+The key fingerprint is:
+d6:39:d4:44:91:db:61:b3:41:5f:d7:47:63:05:b8:24 root@capstonealzheimer
+The key's randomart image is:
++--[ DSA 1024]----+
+|           .+=o=B|
+|          Eo+ *.*|
+|          .o.= =o|
+|         o .o o  |
+|        S +      |
+|       .   .     |
+|                 |
+|                 |
+|                 |
++-----------------+
+Generating public/private ecdsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_ecdsa_key.
+Your public key has been saved in /etc/ssh/ssh_host_ecdsa_key.pub.
+The key fingerprint is:
+44:c0:25:26:fd:25:a2:dc:a3:fa:7e:8b:37:b7:23:08 root@capstonealzheimer
+The key's randomart image is:
++--[ECDSA  256]---+
+|    .o+oo        |
+|     o+o. .      |
+|   . o o.o       |
+|    o o..        |
+|     . .S        |
+|  E .            |
+|   o .           |
+|  . ..= o        |
+|   o+o.=.o       |
++-----------------+
+Cloud-init v. 0.7.5 running 'modules:config' at Wed, 18 Nov 2015 00:31:28 +0000. Up 7.63 seconds.
+Generating locales...
+  en_US.UTF-8... up-to-date
+Generation complete.
+Cloud-init v. 0.7.5 running 'modules:final' at Wed, 18 Nov 2015 00:31:30 +0000. Up 9.85 seconds.
+Cloud-init v. 0.7.5 finished at Wed, 18 Nov 2015 00:31:30 +0000. Datasource DataSourceDigitalOcean.  Up 10.03 seconds
+Cloud-init v. 0.7.5 running 'init-local' at Tue, 24 Nov 2015 18:10:06 +0000. Up 4.26 seconds.
+Cloud-init v. 0.7.5 running 'init' at Tue, 24 Nov 2015 18:10:11 +0000. Up 9.19 seconds.
+ci-info: ++++++++++++++++++++++++++++Net device info++++++++++++++++++++++++++++
+ci-info: +--------+-------+----------------+---------------+-------------------+
+ci-info: | Device |   Up  |    Address     |      Mask     |     Hw-Address    |
+ci-info: +--------+-------+----------------+---------------+-------------------+
+ci-info: |   lo   |  True |   127.0.0.1    |   255.0.0.0   |         .         |
+ci-info: |  eth1  | False |       .        |       .       | 04:01:87:0a:bf:02 |
+ci-info: |  eth0  |  True | 198.199.116.85 | 255.255.255.0 | 04:01:87:0a:bf:01 |
+ci-info: +--------+-------+----------------+---------------+-------------------+
+ci-info: +++++++++++++++++++++++++++++++++Route info++++++++++++++++++++++++++++++++++
+ci-info: +-------+---------------+---------------+---------------+-----------+-------+
+ci-info: | Route |  Destination  |    Gateway    |    Genmask    | Interface | Flags |
+ci-info: +-------+---------------+---------------+---------------+-----------+-------+
+ci-info: |   0   |    0.0.0.0    | 198.199.116.1 |    0.0.0.0    |    eth0   |   UG  |
+ci-info: |   1   |   10.12.0.0   |    0.0.0.0    |  255.255.0.0  |    eth0   |   U   |
+ci-info: |   2   | 198.199.116.0 |    0.0.0.0    | 255.255.255.0 |    eth0   |   U   |
+ci-info: +-------+---------------+---------------+---------------+-----------+-------+
+2015-11-24 13:10:12,456 - stages.py[WARNING]: Could not find module named cc_ubuntu_init_switch
+Cloud-init v. 0.7.5 running 'modules:config' at Tue, 24 Nov 2015 18:10:15 +0000. Up 12.92 seconds.
+Cloud-init v. 0.7.5 running 'modules:final' at Tue, 24 Nov 2015 18:10:16 +0000. Up 14.43 seconds.
+Cloud-init v. 0.7.5 finished at Tue, 24 Nov 2015 18:10:16 +0000. Datasource DataSourceDigitalOcean.  Up 14.56 seconds
+Cloud-init v. 0.7.5 running 'init-local' at Tue, 24 Nov 2015 18:11:44 +0000. Up 3.10 seconds.
+Cloud-init v. 0.7.5 running 'init' at Tue, 24 Nov 2015 18:11:47 +0000. Up 6.39 seconds.
+ci-info: ++++++++++++++++++++++++++++Net device info++++++++++++++++++++++++++++
+ci-info: +--------+-------+----------------+---------------+-------------------+
+ci-info: | Device |   Up  |    Address     |      Mask     |     Hw-Address    |
+ci-info: +--------+-------+----------------+---------------+-------------------+
+ci-info: |   lo   |  True |   127.0.0.1    |   255.0.0.0   |         .         |
+ci-info: |  eth1  | False |       .        |       .       | 04:01:87:0a:bf:02 |
+ci-info: |  eth0  |  True | 198.199.116.85 | 255.255.255.0 | 04:01:87:0a:bf:01 |
+ci-info: +--------+-------+----------------+---------------+-------------------+
+ci-info: +++++++++++++++++++++++++++++++++Route info++++++++++++++++++++++++++++++++++
+ci-info: +-------+---------------+---------------+---------------+-----------+-------+
+ci-info: | Route |  Destination  |    Gateway    |    Genmask    | Interface | Flags |
+ci-info: +-------+---------------+---------------+---------------+-----------+-------+
+ci-info: |   0   |    0.0.0.0    | 198.199.116.1 |    0.0.0.0    |    eth0   |   UG  |
+ci-info: |   1   |   10.12.0.0   |    0.0.0.0    |  255.255.0.0  |    eth0   |   U   |
+ci-info: |   2   | 198.199.116.0 |    0.0.0.0    | 255.255.255.0 |    eth0   |   U   |
+ci-info: +-------+---------------+---------------+---------------+-----------+-------+
+2015-11-24 13:11:47,797 - stages.py[WARNING]: Could not find module named cc_ubuntu_init_switch
+Cloud-init v. 0.7.5 running 'modules:config' at Tue, 24 Nov 2015 18:11:49 +0000. Up 8.58 seconds.
+Cloud-init v. 0.7.5 running 'modules:final' at Tue, 24 Nov 2015 18:11:50 +0000. Up 9.17 seconds.
+Cloud-init v. 0.7.5 finished at Tue, 24 Nov 2015 18:11:50 +0000. Datasource DataSourceDigitalOcean.  Up 9.32 seconds
+Cloud-init v. 0.7.5 running 'init-local' at Tue, 24 Nov 2015 18:21:42 +0000. Up 2.76 seconds.
+Cloud-init v. 0.7.5 running 'init' at Tue, 24 Nov 2015 18:21:44 +0000. Up 4.50 seconds.
+ci-info: ++++++++++++++++++++++++++++Net device info++++++++++++++++++++++++++++
+ci-info: +--------+-------+----------------+---------------+-------------------+
+ci-info: | Device |   Up  |    Address     |      Mask     |     Hw-Address    |
+ci-info: +--------+-------+----------------+---------------+-------------------+
+ci-info: |   lo   |  True |   127.0.0.1    |   255.0.0.0   |         .         |
+ci-info: |  eth1  | False |       .        |       .       | 04:01:87:0a:bf:02 |
+ci-info: |  eth0  |  True | 198.199.116.85 | 255.255.255.0 | 04:01:87:0a:bf:01 |
+ci-info: +--------+-------+----------------+---------------+-------------------+
+ci-info: +++++++++++++++++++++++++++++++++Route info++++++++++++++++++++++++++++++++++
+ci-info: +-------+---------------+---------------+---------------+-----------+-------+
+ci-info: | Route |  Destination  |    Gateway    |    Genmask    | Interface | Flags |
+ci-info: +-------+---------------+---------------+---------------+-----------+-------+
+ci-info: |   0   |    0.0.0.0    | 198.199.116.1 |    0.0.0.0    |    eth0   |   UG  |
+ci-info: |   1   |   10.12.0.0   |    0.0.0.0    |  255.255.0.0  |    eth0   |   U   |
+ci-info: |   2   | 198.199.116.0 |    0.0.0.0    | 255.255.255.0 |    eth0   |   U   |
+ci-info: +-------+---------------+---------------+---------------+-----------+-------+
+2015-11-24 13:21:44,441 - stages.py[WARNING]: Could not find module named cc_ubuntu_init_switch
+Cloud-init v. 0.7.5 running 'modules:config' at Tue, 24 Nov 2015 18:21:45 +0000. Up 5.75 seconds.
+Cloud-init v. 0.7.5 running 'modules:final' at Tue, 24 Nov 2015 18:21:45 +0000. Up 6.03 seconds.
+Cloud-init v. 0.7.5 finished at Tue, 24 Nov 2015 18:21:45 +0000. Datasource DataSourceDigitalOcean.  Up 6.10 seconds
+Cloud-init v. 0.7.5 running 'init-local' at Tue, 22 Mar 2016 22:25:33 +0000. Up 37.47 seconds.
+Cloud-init v. 0.7.5 running 'init' at Tue, 22 Mar 2016 22:26:03 +0000. Up 67.71 seconds.
+ci-info: ++++++++++++++++++++++++++++Net device info++++++++++++++++++++++++++++
+ci-info: +--------+-------+----------------+---------------+-------------------+
+ci-info: | Device |   Up  |    Address     |      Mask     |     Hw-Address    |
+ci-info: +--------+-------+----------------+---------------+-------------------+
+ci-info: |   lo   |  True |   127.0.0.1    |   255.0.0.0   |         .         |
+ci-info: |  eth1  | False |       .        |       .       | 04:01:87:0a:bf:02 |
+ci-info: |  eth0  |  True | 198.199.116.85 | 255.255.255.0 | 04:01:87:0a:bf:01 |
+ci-info: +--------+-------+----------------+---------------+-------------------+
+ci-info: +++++++++++++++++++++++++++++++++Route info++++++++++++++++++++++++++++++++++
+ci-info: +-------+---------------+---------------+---------------+-----------+-------+
+ci-info: | Route |  Destination  |    Gateway    |    Genmask    | Interface | Flags |
+ci-info: +-------+---------------+---------------+---------------+-----------+-------+
+ci-info: |   0   |    0.0.0.0    | 198.199.116.1 |    0.0.0.0    |    eth0   |   UG  |
+ci-info: |   1   |   10.12.0.0   |    0.0.0.0    |  255.255.0.0  |    eth0   |   U   |
+ci-info: |   2   | 198.199.116.0 |    0.0.0.0    | 255.255.255.0 |    eth0   |   U   |
+ci-info: +-------+---------------+---------------+---------------+-----------+-------+
+2016-03-22 18:26:08,268 - stages.py[WARNING]: Could not find module named cc_ubuntu_init_switch
+Cloud-init v. 0.7.5 running 'modules:config' at Tue, 22 Mar 2016 22:26:28 +0000. Up 91.95 seconds.
+Cloud-init v. 0.7.5 running 'modules:final' at Tue, 22 Mar 2016 22:26:37 +0000. Up 101.22 seconds.
+Cloud-init v. 0.7.5 finished at Tue, 22 Mar 2016 22:26:40 +0000. Datasource DataSourceDigitalOcean.  Up 104.34 seconds
+Cloud-init v. 0.7.5 running 'init-local' at Tue, 22 Mar 2016 22:31:57 +0000. Up 21.39 seconds.
+Cloud-init v. 0.7.5 running 'init' at Tue, 22 Mar 2016 22:32:28 +0000. Up 52.33 seconds.
+ci-info: ++++++++++++++++++++++++++++Net device info++++++++++++++++++++++++++++
+ci-info: +--------+-------+----------------+---------------+-------------------+
+ci-info: | Device |   Up  |    Address     |      Mask     |     Hw-Address    |
+ci-info: +--------+-------+----------------+---------------+-------------------+
+ci-info: |   lo   |  True |   127.0.0.1    |   255.0.0.0   |         .         |
+ci-info: |  eth1  | False |       .        |       .       | 04:01:87:0a:bf:02 |
+ci-info: |  eth0  |  True | 198.199.116.85 | 255.255.255.0 | 04:01:87:0a:bf:01 |
+ci-info: +--------+-------+----------------+---------------+-------------------+
+ci-info: +++++++++++++++++++++++++++++++++Route info++++++++++++++++++++++++++++++++++
+ci-info: +-------+---------------+---------------+---------------+-----------+-------+
+ci-info: | Route |  Destination  |    Gateway    |    Genmask    | Interface | Flags |
+ci-info: +-------+---------------+---------------+---------------+-----------+-------+
+ci-info: |   0   |    0.0.0.0    | 198.199.116.1 |    0.0.0.0    |    eth0   |   UG  |
+ci-info: |   1   |   10.12.0.0   |    0.0.0.0    |  255.255.0.0  |    eth0   |   U   |
+ci-info: |   2   | 198.199.116.0 |    0.0.0.0    | 255.255.255.0 |    eth0   |   U   |
+ci-info: +-------+---------------+---------------+---------------+-----------+-------+
+2016-03-22 18:32:33,491 - stages.py[WARNING]: Could not find module named cc_ubuntu_init_switch
+Cloud-init v. 0.7.5 running 'modules:config' at Tue, 22 Mar 2016 22:32:56 +0000. Up 80.04 seconds.
+Cloud-init v. 0.7.5 running 'modules:final' at Tue, 22 Mar 2016 22:33:14 +0000. Up 98.51 seconds.
+Cloud-init v. 0.7.5 finished at Tue, 22 Mar 2016 22:33:18 +0000. Datasource DataSourceDigitalOcean.  Up 102.15 seconds
+Cloud-init v. 0.7.5 running 'init-local' at Tue, 22 Mar 2016 22:51:35 +0000. Up 30.00 seconds.
+Cloud-init v. 0.7.5 running 'init' at Tue, 22 Mar 2016 22:52:00 +0000. Up 54.63 seconds.
+ci-info: ++++++++++++++++++++++++++++Net device info++++++++++++++++++++++++++++
+ci-info: +--------+-------+----------------+---------------+-------------------+
+ci-info: | Device |   Up  |    Address     |      Mask     |     Hw-Address    |
+ci-info: +--------+-------+----------------+---------------+-------------------+
+ci-info: |   lo   |  True |   127.0.0.1    |   255.0.0.0   |         .         |
+ci-info: |  eth1  | False |       .        |       .       | 04:01:87:0a:bf:02 |
+ci-info: |  eth0  |  True | 198.199.116.85 | 255.255.255.0 | 04:01:87:0a:bf:01 |
+ci-info: +--------+-------+----------------+---------------+-------------------+
+ci-info: +++++++++++++++++++++++++++++++++Route info++++++++++++++++++++++++++++++++++
+ci-info: +-------+---------------+---------------+---------------+-----------+-------+
+ci-info: | Route |  Destination  |    Gateway    |    Genmask    | Interface | Flags |
+ci-info: +-------+---------------+---------------+---------------+-----------+-------+
+ci-info: |   0   |    0.0.0.0    | 198.199.116.1 |    0.0.0.0    |    eth0   |   UG  |
+ci-info: |   1   |   10.12.0.0   |    0.0.0.0    |  255.255.0.0  |    eth0   |   U   |
+ci-info: |   2   | 198.199.116.0 |    0.0.0.0    | 255.255.255.0 |    eth0   |   U   |
+ci-info: +-------+---------------+---------------+---------------+-----------+-------+
+2016-03-22 18:52:07,109 - stages.py[WARNING]: Could not find module named cc_ubuntu_init_switch
+Cloud-init v. 0.7.5 running 'modules:config' at Tue, 22 Mar 2016 22:52:31 +0000. Up 85.52 seconds.
+Cloud-init v. 0.7.5 running 'modules:final' at Tue, 22 Mar 2016 22:52:45 +0000. Up 98.98 seconds.
+Cloud-init v. 0.7.5 finished at Tue, 22 Mar 2016 22:52:50 +0000. Datasource DataSourceDigitalOcean.  Up 104.18 seconds
+Cloud-init v. 0.7.5 running 'init-local' at Tue, 22 Mar 2016 23:13:54 +0000. Up 27.77 seconds.
+Cloud-init v. 0.7.5 running 'init' at Tue, 22 Mar 2016 23:14:16 +0000. Up 49.09 seconds.
+ci-info: ++++++++++++++++++++++++++++Net device info++++++++++++++++++++++++++++
+ci-info: +--------+-------+----------------+---------------+-------------------+
+ci-info: | Device |   Up  |    Address     |      Mask     |     Hw-Address    |
+ci-info: +--------+-------+----------------+---------------+-------------------+
+ci-info: |   lo   |  True |   127.0.0.1    |   255.0.0.0   |         .         |
+ci-info: |  eth1  | False |       .        |       .       | 04:01:87:0a:bf:02 |
+ci-info: |  eth0  |  True | 198.199.116.85 | 255.255.255.0 | 04:01:87:0a:bf:01 |
+ci-info: +--------+-------+----------------+---------------+-------------------+
+ci-info: +++++++++++++++++++++++++++++++++Route info++++++++++++++++++++++++++++++++++
+ci-info: +-------+---------------+---------------+---------------+-----------+-------+
+ci-info: | Route |  Destination  |    Gateway    |    Genmask    | Interface | Flags |
+ci-info: +-------+---------------+---------------+---------------+-----------+-------+
+ci-info: |   0   |    0.0.0.0    | 198.199.116.1 |    0.0.0.0    |    eth0   |   UG  |
+ci-info: |   1   |   10.12.0.0   |    0.0.0.0    |  255.255.0.0  |    eth0   |   U   |
+ci-info: |   2   | 198.199.116.0 |    0.0.0.0    | 255.255.255.0 |    eth0   |   U   |
+ci-info: +-------+---------------+---------------+---------------+-----------+-------+
+2016-03-22 19:14:19,084 - stages.py[WARNING]: Could not find module named cc_ubuntu_init_switch
+Cloud-init v. 0.7.5 running 'modules:config' at Tue, 22 Mar 2016 23:14:40 +0000. Up 72.70 seconds.
+Cloud-init v. 0.7.5 running 'modules:final' at Tue, 22 Mar 2016 23:14:48 +0000. Up 81.01 seconds.
+Cloud-init v. 0.7.5 finished at Tue, 22 Mar 2016 23:14:51 +0000. Datasource DataSourceDigitalOcean.  Up 84.16 seconds

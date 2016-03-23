@@ -1,0 +1,31 @@
+2016-03-23 12:45:48 startup archives unpack
+2016-03-23 12:45:55 install liberror-perl:all <none> 0.17-1.1
+2016-03-23 12:45:55 status half-installed liberror-perl:all 0.17-1.1
+2016-03-23 12:45:56 status triggers-pending man-db:amd64 2.6.7.1-1ubuntu1
+2016-03-23 12:45:56 status unpacked liberror-perl:all 0.17-1.1
+2016-03-23 12:45:56 status unpacked liberror-perl:all 0.17-1.1
+2016-03-23 12:45:57 install git-man:all <none> 1:1.9.1-1ubuntu0.3
+2016-03-23 12:45:57 status half-installed git-man:all 1:1.9.1-1ubuntu0.3
+2016-03-23 12:46:03 status unpacked git-man:all 1:1.9.1-1ubuntu0.3
+2016-03-23 12:46:03 status unpacked git-man:all 1:1.9.1-1ubuntu0.3
+2016-03-23 12:46:05 install git:amd64 <none> 1:1.9.1-1ubuntu0.3
+2016-03-23 12:46:05 status half-installed git:amd64 1:1.9.1-1ubuntu0.3
+2016-03-23 12:46:47 status unpacked git:amd64 1:1.9.1-1ubuntu0.3
+2016-03-23 12:46:47 status unpacked git:amd64 1:1.9.1-1ubuntu0.3
+2016-03-23 12:46:48 trigproc man-db:amd64 2.6.7.1-1ubuntu1 2.6.7.1-1ubuntu1
+2016-03-23 12:46:48 status half-configured man-db:amd64 2.6.7.1-1ubuntu1
+2016-03-23 12:47:55 status installed man-db:amd64 2.6.7.1-1ubuntu1
+2016-03-23 12:47:57 startup packages configure
+2016-03-23 12:47:57 configure liberror-perl:all 0.17-1.1 <none>
+2016-03-23 12:47:57 status unpacked liberror-perl:all 0.17-1.1
+2016-03-23 12:47:57 status half-configured liberror-perl:all 0.17-1.1
+2016-03-23 12:47:57 status installed liberror-perl:all 0.17-1.1
+2016-03-23 12:47:57 configure git-man:all 1:1.9.1-1ubuntu0.3 <none>
+2016-03-23 12:47:57 status unpacked git-man:all 1:1.9.1-1ubuntu0.3
+2016-03-23 12:47:57 status half-configured git-man:all 1:1.9.1-1ubuntu0.3
+2016-03-23 12:47:57 status installed git-man:all 1:1.9.1-1ubuntu0.3
+2016-03-23 12:47:57 configure git:amd64 1:1.9.1-1ubuntu0.3 <none>
+2016-03-23 12:47:57 status unpacked git:amd64 1:1.9.1-1ubuntu0.3
+2016-03-23 12:47:57 status unpacked git:amd64 1:1.9.1-1ubuntu0.3
+2016-03-23 12:47:58 status half-configured git:amd64 1:1.9.1-1ubuntu0.3
+2016-03-23 12:47:58 status installed git:amd64 1:1.9.1-1ubuntu0.3

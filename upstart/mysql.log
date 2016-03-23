@@ -1,0 +1,211 @@
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+160322 18:17:17 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+160322 18:17:17 [Note] /usr/sbin/mysqld (mysqld 5.5.46-0ubuntu0.14.04.2) starting as process 28807 ...
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+mysqld is alive
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+160322 18:26:24 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+160322 18:26:24 [Note] /usr/sbin/mysqld (mysqld 5.5.46-0ubuntu0.14.04.2) starting as process 1009 ...
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+mysqld is alive
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+160322 18:32:49 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+160322 18:32:49 [Note] /usr/sbin/mysqld (mysqld 5.5.46-0ubuntu0.14.04.2) starting as process 1010 ...
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+mysqld is alive
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+160322 18:33:50 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+160322 18:33:50 [Note] /usr/sbin/mysqld (mysqld 5.5.46-0ubuntu0.14.04.2) starting as process 1336 ...
+mysqld is alive
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+160322 18:52:25 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+160322 18:52:25 [Note] /usr/sbin/mysqld (mysqld 5.5.46-0ubuntu0.14.04.2) starting as process 1005 ...
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+mysqld is alive
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+160322 18:53:44 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+160322 18:53:44 [Note] /usr/sbin/mysqld (mysqld 5.5.46-0ubuntu0.14.04.2) starting as process 1423 ...
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+mysqld is alive
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+160322 19:04:58 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+160322 19:04:58 [Note] /usr/sbin/mysqld (mysqld 5.5.46-0ubuntu0.14.04.2) starting as process 2415 ...
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+mysqld is alive
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+160322 19:14:36 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+160322 19:14:36 [Note] /usr/sbin/mysqld (mysqld 5.5.46-0ubuntu0.14.04.2) starting as process 1008 ...
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+mysqld is alive
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+160322 19:16:12 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+160322 19:16:12 [Note] /usr/sbin/mysqld (mysqld 5.5.46-0ubuntu0.14.04.2) starting as process 1380 ...
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+mysqld is alive
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+160322 19:22:50 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+160322 19:22:50 [Note] /usr/sbin/mysqld (mysqld 5.5.46-0ubuntu0.14.04.2) starting as process 2149 ...
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+mysqld is alive
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+160322 19:42:00 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+160322 19:42:00 [Note] /usr/sbin/mysqld (mysqld 5.5.46-0ubuntu0.14.04.2) starting as process 3695 ...
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+mysqld is alive
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+160322 21:12:08 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+160322 21:12:08 [Note] /usr/sbin/mysqld (mysqld 5.5.46-0ubuntu0.14.04.2) starting as process 9240 ...
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+mysqld is alive
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+160322 21:53:52 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+160322 21:53:52 [Note] /usr/sbin/mysqld (mysqld 5.5.46-0ubuntu0.14.04.2) starting as process 12440 .../usr/bin/mysqladmin: connect to server at 'localhost' failed
+
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+mysqld is alive
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+160323 12:38:58 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+160323 12:38:58 [Note] /usr/sbin/mysqld (mysqld 5.5.46-0ubuntu0.14.04.2) starting as process 2027 ...
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+mysqld is alive
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.

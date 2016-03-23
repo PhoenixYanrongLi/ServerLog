@@ -1,0 +1,15 @@
+Mar 23 07:02:14 capstonealzheimer kernel: [42526.800097] INFO: NMI handler (perf_event_nmi_handler) took too long to run: 14.407 msecs
+Mar 23 07:17:02 capstonealzheimer CRON[15524]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 23 08:17:01 capstonealzheimer CRON[18855]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 23 09:17:02 capstonealzheimer CRON[22479]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 23 10:17:01 capstonealzheimer CRON[25940]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 23 11:17:01 capstonealzheimer CRON[29593]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 23 12:17:01 capstonealzheimer CRON[614]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 23 12:38:57 capstonealzheimer kernel: [62730.505072] type=1400 audit(1458751137.888:28): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/sbin/mysqld" pid=2015 comm="apparmor_parser"
+Mar 23 12:39:04 capstonealzheimer /etc/mysql/debian-start[2084]: Upgrading MySQL tables if necessary.
+Mar 23 12:39:05 capstonealzheimer /etc/mysql/debian-start[2088]: /usr/bin/mysql_upgrade: the '--basedir' option is always ignored
+Mar 23 12:39:05 capstonealzheimer /etc/mysql/debian-start[2088]: Looking for 'mysql' as: /usr/bin/mysql
+Mar 23 12:39:05 capstonealzheimer /etc/mysql/debian-start[2088]: Looking for 'mysqlcheck' as: /usr/bin/mysqlcheck
+Mar 23 12:39:05 capstonealzheimer /etc/mysql/debian-start[2088]: This installation of MySQL is already upgraded to 5.5.46, use --force if you still need to run mysql_upgrade
+Mar 23 12:39:05 capstonealzheimer /etc/mysql/debian-start[2100]: Checking for insecure root accounts.
+Mar 23 12:39:05 capstonealzheimer /etc/mysql/debian-start[2105]: Triggering myisam-recover for all MyISAM tables

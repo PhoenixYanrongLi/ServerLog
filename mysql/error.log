@@ -1,0 +1,24 @@
+160323 12:38:54 [Note] /usr/sbin/mysqld: Normal shutdown
+
+160323 12:38:54 [Note] Event Scheduler: Purging the queue. 0 events
+160323 12:38:55  InnoDB: Starting shutdown...
+160323 12:38:57  InnoDB: Shutdown completed; log sequence number 4487871127
+160323 12:38:57 [Note] /usr/sbin/mysqld: Shutdown complete
+
+160323 12:38:58 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+160323 12:38:58 [Note] Plugin 'FEDERATED' is disabled.
+160323 12:38:58 InnoDB: The InnoDB memory heap is disabled
+160323 12:38:58 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+160323 12:38:58 InnoDB: Compressed tables use zlib 1.2.8
+160323 12:38:58 InnoDB: Using Linux native AIO
+160323 12:38:59 InnoDB: Initializing buffer pool, size = 128.0M
+160323 12:38:59 InnoDB: Completed initialization of buffer pool
+160323 12:38:59 InnoDB: highest supported file format is Barracuda.
+160323 12:39:01  InnoDB: Waiting for the background threads to start
+160323 12:39:02 InnoDB: 5.5.46 started; log sequence number 4487871127
+160323 12:39:02 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+160323 12:39:03 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+160323 12:39:03 [Note] Server socket created on IP: '127.0.0.1'.
+160323 12:39:03 [Note] Event Scheduler: Loaded 0 events
+160323 12:39:03 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.46-0ubuntu0.14.04.2'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)

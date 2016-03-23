@@ -1,0 +1,5 @@
+
+Start-Date: 2016-03-23  12:45:46
+Commandline: apt-get install git
+Install: liberror-perl:amd64 (0.17-1.1, automatic), git-man:amd64 (1.9.1-1ubuntu0.3, automatic), git:amd64 (1.9.1-1ubuntu0.3)
+End-Date: 2016-03-23  12:47:58

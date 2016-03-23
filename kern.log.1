@@ -1,0 +1,77 @@
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.563978] python invoked oom-killer: gfp_mask=0x280da, order=0, oom_score_adj=0
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564118] python cpuset=/ mems_allowed=0
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564166] CPU: 0 PID: 2512 Comm: python Not tainted 3.13.0-57-generic #95-Ubuntu
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564175] Hardware name: Bochs Bochs, BIOS Bochs 01/01/2011
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564196]  0000000000000000 ffff88000c1eda68 ffffffff817232f0 ffff88001b291800
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564217]  ffff88000c1edaf0 ffffffff8171d8f7 ffffffff81067a06 ffff88000c1edac8
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564221]  ffffffff810c783c 0000000000000031 ffff88001fffae28 0000000000000000
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564230] Call Trace:
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564318]  [<ffffffff817232f0>] dump_stack+0x45/0x56
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564337]  [<ffffffff8171d8f7>] dump_header+0x7f/0x1f1
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564374]  [<ffffffff81067a06>] ? put_online_cpus+0x56/0x80
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564388]  [<ffffffff810c783c>] ? rcu_oom_notify+0xcc/0xf0
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564418]  [<ffffffff81152dae>] oom_kill_process+0x1ce/0x330
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564457]  [<ffffffff812d7da5>] ? security_capable_noaudit+0x15/0x20
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564463]  [<ffffffff811534e4>] out_of_memory+0x414/0x450
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564469]  [<ffffffff81159820>] __alloc_pages_nodemask+0xa60/0xb80
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564496]  [<ffffffff8119a14a>] alloc_pages_vma+0x9a/0x140
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564511]  [<ffffffff8117a793>] handle_mm_fault+0xb23/0xf10
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564541]  [<ffffffff8172f334>] __do_page_fault+0x184/0x570
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564553]  [<ffffffff8118183e>] ? do_mmap_pgoff+0x34e/0x3d0
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564571]  [<ffffffff810a0525>] ? set_next_entity+0x95/0xb0
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564598]  [<ffffffff8101260b>] ? __switch_to+0x16b/0x4d0
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564608]  [<ffffffff8172f73a>] do_page_fault+0x1a/0x70
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564614]  [<ffffffff8172eda9>] do_async_page_fault+0x29/0xe0
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564619]  [<ffffffff8172bb98>] async_page_fault+0x28/0x30
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564633] Mem-Info:
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564640] Node 0 DMA per-cpu:
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564655] CPU    0: hi:    0, btch:   1 usd:   0
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564657] Node 0 DMA32 per-cpu:
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564661] CPU    0: hi:  186, btch:  31 usd:  30
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564668] active_anon:113740 inactive_anon:1973 isolated_anon:0
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564668]  active_file:47 inactive_file:49 isolated_file:0
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564668]  unevictable:0 dirty:0 writeback:0 unstable:0
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564668]  free:1155 slab_reclaimable:2040 slab_unreclaimable:2376
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564668]  mapped:29 shmem:90 pagetables:1245 bounce:0
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564668]  free_cma:0
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564675] Node 0 DMA free:1968kB min:88kB low:108kB high:132kB active_anon:12620kB inactive_anon:272kB active_file:4kB inactive_file:4kB unevictable:0kB isolated(anon):0kB isolated(file):0kB present:15992kB managed:15908kB mlocked:0kB dirty:0kB writeback:0kB mapped:0kB shmem:4kB slab_reclaimable:272kB slab_unreclaimable:460kB kernel_stack:24kB pagetables:112kB unstable:0kB bounce:0kB free_cma:0kB writeback_tmp:0kB pages_scanned:24 all_unreclaimable? yes
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564695] lowmem_reserve[]: 0 471 471 471
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564704] Node 0 DMA32 free:2652kB min:2732kB low:3412kB high:4096kB active_anon:442340kB inactive_anon:7620kB active_file:184kB inactive_file:192kB unevictable:0kB isolated(anon):0kB isolated(file):0kB present:507896kB managed:485884kB mlocked:0kB dirty:0kB writeback:0kB mapped:120kB shmem:356kB slab_reclaimable:7888kB slab_unreclaimable:9044kB kernel_stack:760kB pagetables:4868kB unstable:0kB bounce:0kB free_cma:0kB writeback_tmp:0kB pages_scanned:564 all_unreclaimable? yes
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564734] lowmem_reserve[]: 0 0 0 0
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564739] Node 0 DMA: 51*4kB (UEM) 3*8kB (R) 3*16kB (R) 7*32kB (R) 5*64kB (R) 1*128kB (R) 0*256kB 0*512kB 1*1024kB (R) 0*2048kB 0*4096kB = 1972kB
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564774] Node 0 DMA32: 251*4kB (U) 2*8kB (R) 2*16kB (R) 4*32kB (R) 1*64kB (R) 3*128kB (R) 0*256kB 0*512kB 1*1024kB (R) 0*2048kB 0*4096kB = 2652kB
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564814] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=2048kB
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564817] 189 total pagecache pages
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564879] 0 pages in swap cache
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564892] Swap cache stats: add 8109797, delete 8109797, find 2116467/3106343
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564895] Free swap  = 0kB
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564896] Total swap = 0kB
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564899] 130972 pages RAM
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564901] 0 pages HighMem/MovableOnly
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564902] 5503 pages reserved
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564904] [ pid ]   uid  tgid total_vm      rss nr_ptes swapents oom_score_adj name
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564925] [  338]     0   338     4868       67      13        0             0 upstart-udev-br
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564932] [  343]     0   343    12838      170      27        0         -1000 systemd-udevd
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564936] [  625]     0   625     3880      126      12        0             0 upstart-socket-
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564940] [  669]   102   669     9844      144      23        0             0 dbus-daemon
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564944] [  743]     0   743    11075      303      28        0             0 systemd-logind
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564947] [  757]   101   757    64153     7880      42        0             0 rsyslogd
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564951] [  782]     0   782     3818       65      13        0             0 upstart-file-br
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564954] [  835]     0   835     3954       41      13        0             0 getty
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564958] [  838]     0   838     3954       41      13        0             0 getty
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564961] [  843]     0   843     3954       38      13        0             0 getty
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564970] [  844]     0   844     3954       40      13        0             0 getty
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564973] [  846]     0   846     3954       39      13        0             0 getty
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564977] [  870]     0   870    15341      180      32        0         -1000 sshd
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564980] [  873]     0   873     1091       36       8        0             0 acpid
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564984] [  876]     0   876     5913       63      17        0             0 cron
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564987] [  878]     0   878     4784       44      12        0             0 atd
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564991] [ 1316]     0  1316     3954       39      13        0             0 getty
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564995] [ 2375]   106  2375   226407    30902     115        0             0 mysqld
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.564998] [ 2420]     0  2420   104532    10616     165        0             0 python
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.565001] [ 2509]     0  2509   225300    10685     162        0             0 python
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.565010] [ 2512]     0  2512   158083    63979     270        0             0 python
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.565014] [ 2515]     0  2515   104532    10660     153        0             0 python
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.565018] [16670]     0 16670    26445      243      54        0             0 sshd
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.565021] Out of memory: Kill process 2512 (python) score 496 or sacrifice child
+Mar 15 17:01:55 capstonealzheimer kernel: [9686414.565186] Killed process 2512 (python) total-vm:632332kB, anon-rss:255836kB, file-rss:80kB
